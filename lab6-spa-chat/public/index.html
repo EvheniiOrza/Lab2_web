@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Users SPA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📋 Users Directory</h1>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="🔍 Search users..." />
+      <button id="sort-btn">⇅ Sort A–Z</button>
+      <button id="load-btn">🔄 Load Users</button>
+    </div>
+
+    <ul id="users-list"></ul>
+    <div id="posts-container"></div>
+
+    <!-- Chat Section -->
+    <div class="chat-container">
+      <h2>🟢 Live Chat</h2>
+      <ul id="messages"></ul>
+      <input type="text" id="msgInput" placeholder="Type your message..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
