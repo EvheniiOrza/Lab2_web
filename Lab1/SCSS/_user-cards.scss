@@ -1,0 +1,14 @@
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  &.admin {
+    background: #e3f2fd;
+  }
+
+  &.regular {
+    background: #fff3e0;
+  }
+}

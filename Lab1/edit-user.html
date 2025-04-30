@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit User</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="users.html">Users</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="#" class="logout-button">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="edit-user-page">
+    <section>
+      <h2>Edit User</h2>
+      <form>
+        <label for="edit-username">Username</label>
+        <input type="text" id="edit-username" name="edit-username" value="user123" required />
+
+        <label for="edit-role">Role</label>
+        <select id="edit-role">
+          <option value="admin">Admin</option>
+          <option value="regular" selected>Regular</option>
+        </select>
+
+        <button type="submit">Save</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

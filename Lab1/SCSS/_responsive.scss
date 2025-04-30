@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .main-nav ul {
+    flex-direction: column;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

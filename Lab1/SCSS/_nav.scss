@@ -1,0 +1,15 @@
+header {
+  background: $primary-color;
+  padding: 1rem;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
